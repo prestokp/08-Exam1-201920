@@ -3,8 +3,8 @@ Exam 1, problem 2.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Kirk Preston.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
@@ -74,6 +74,13 @@ def factor_sum(n):
     #  This function is PURPOSELY implemented INCORRECTLY (it just returns 0).
     #  DO NOT IMPLEMENT  factor_sum.  Just leave it as it is (returning 0).
     ###########################################################################
+    total = 0
+    for k in range(n):
+        if n % 2 == 0:
+            total = total + (k+n)
+    factor_sum(n)
+
+
     return 0
     ###########################################################################
     # DO NOT modify the above line of code!
