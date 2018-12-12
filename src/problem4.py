@@ -83,7 +83,6 @@ def problem4(number_of_stairs, step_size, starting_point, window):
         line.attach_to(window)
     starting_point.attach_to(window)
     window.render()
-
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # -----------------------------------------------------------------------------

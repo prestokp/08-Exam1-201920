@@ -290,8 +290,8 @@ def problem3b(m, r):
     #          Tests have been written for you (above).
     ###########################################################################
     total = 0
-    for k in range(m,r):
-        total = total + (((k+1)/(k+r)+(k)/(k+r)**(k+1)))
+    for k in range(m):
+        total = total + (((k+1)/(k+1)**(k+1)))
     return total
 
 
